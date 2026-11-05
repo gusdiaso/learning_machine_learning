@@ -1,93 +1,54 @@
-# 🤖 Machine Learning A–Z
+# Machine Learning A–Z: estudos e implementações
 
-**AI, Python & R + ChatGPT Prize**
+Notebooks em Python com os algoritmos clássicos de Machine Learning que estudei no curso **Machine Learning A–Z**. Cada técnica fica em uma pasta própria, com o notebook e o dataset usado.
 
-## 📌 Visão Geral
+## Conteúdo
 
-Este repositório documenta meus estudos e implementações práticas do curso **Machine Learning A–Z**, cobrindo desde o pré-processamento de dados até técnicas avançadas de _Deep Learning_, _Reinforcement Learning_ e _Model Selection_.
+| Área | Técnicas |
+|---|---|
+| **Regressão** | Pré-processamento de dados, regressão linear simples e múltipla, regressão polinomial, SVR, árvore de decisão, Random Forest |
+| **Classificação** | Regressão logística, K-NN, SVM, Kernel SVM, Naive Bayes, árvore de decisão, Random Forest |
+| **Clusterização** | K-Means, clusterização hierárquica |
+| **Regras de associação** | Apriori, Eclat |
+| **Aprendizado por reforço** | Upper Confidence Bound (UCB), Thompson Sampling |
+| **Processamento de linguagem natural** | Bag of Words aplicado a avaliações de restaurantes |
 
-O foco não é apenas compreender algoritmos isoladamente, mas **aplicar Machine Learning de forma estruturada**, entendendo quando, por que e como cada técnica deve ser utilizada.
+## Estrutura
 
----
+```
+regression/                  # 7 notebooks
+classification/              # 7 notebooks
+clustering/
+association-rule/
+reinforcement-learning/
+natural-language-processing/
+requirements.txt
+```
 
-## 🎯 Objetivos do Repositório
+## Tecnologias
 
--   Construir uma **base sólida em Machine Learning clássico**
--   Desenvolver **pensamento crítico sobre modelagem**
--   Praticar **experimentação, validação e comparação de modelos**
--   Criar um **portfólio técnico reutilizável** para projetos reais
+Python · pandas · NumPy · scikit-learn · Matplotlib · SciPy · apyori
 
----
+## Como executar
 
-## 🧠 Conteúdo Estudado
+```bash
+git clone https://github.com/gusdiaso/learning_machine_learning.git
+cd learning_machine_learning
+pip install -r requirements.txt
+pip install jupyter
+jupyter notebook
+```
 
-### 1️⃣ Data Preprocessing
+## Próximos passos
 
--   Limpeza e tratamento de dados
--   Encoding de variáveis categóricas
--   Feature Scaling
--   Train/Test Split
+Redução de dimensionalidade (PCA, LDA, Kernel PCA), seleção de modelos (validação cruzada, Grid Search, XGBoost) e redes neurais.
 
-### 2️⃣ Regression
+## Aplicação em projetos
 
--   Linear Regression
--   Polynomial Regression
--   Support Vector Regression (SVR)
--   Decision Tree Regression
--   Random Forest Regression
+Os fundamentos praticados aqui foram usados em projetos maiores, como a [previsão de criptomoedas com LSTM](https://github.com/gusdiaso/crypto_predict).
 
-### 3️⃣ Classification
+## Autor
 
--   Logistic Regression
--   K-Nearest Neighbors (K-NN)
--   Support Vector Machines (SVM)
--   Naive Bayes
--   Decision Tree Classification
--   Random Forest Classification
+Gustavo Dias de Oliveira · [LinkedIn](https://www.linkedin.com/in/gusdiaso/)
 
-### 4️⃣ Clustering
-
--   K-Means
--   Hierarchical Clustering
-
-### 5️⃣ Association Rule Learning
-
--   Apriori
--   Eclat
-
-### 6️⃣ Reinforcement Learning
-
--   Upper Confidence Bound (UCB)
--   Thompson Sampling
-
-### 7️⃣ Natural Language Processing
-
--   Bag of Words
--   Modelagem básica de texto
-
-### 8️⃣ Deep Learning
-
--   Artificial Neural Networks (ANN)
--   Convolutional Neural Networks (CNN)
-
-### 9️⃣ Dimensionality Reduction
-
--   Principal Component Analysis (PCA)
--   Linear Discriminant Analysis (LDA)
--   Kernel PCA
-
-### 🔟 Model Selection & Boosting
-
--   Cross Validation
--   Grid Search
--   XGBoost
-
----
-
-## 🛠️ Tecnologias Estudadas
-
--   **Python** (NumPy, Pandas, Matplotlib, Scikit-learn)
--   **Machine Learning Clássico**
--   **Deep Learning**
--   **Estatística aplicada**
--   **ChatGPT como apoio ao aprendizado e debugging**
+Licença MIT.
