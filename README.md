@@ -1,3 +1,5 @@
+🇧🇷 Português | 🇺🇸 [English](README.en.md)
+
 # Machine Learning A–Z: estudos e implementações
 
 Notebooks em Python com os algoritmos clássicos de Machine Learning que estudei no curso **Machine Learning A–Z**. Cada técnica fica em uma pasta própria, com o notebook e o dataset usado.
